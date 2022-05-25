@@ -1,0 +1,184 @@
+:root {
+  --grey: #f5f4fa;
+  --black: #2f303a;
+  --text-grey: #757575;
+  --text-black: #212121;
+  --blue: #2196f3;
+}
+
+body {
+  color: var(--text-black);
+  font-family: "Roboto", "sans-serif";
+}
+
+.header {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: var(--text-black);
+}
+
+.header-contact a:visited {
+  color: var(--text-grey);
+}
+
+.logo {
+  font-family: "Raleway", "sans-serif";
+  font-weight: 700;
+  font-size: 26px;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue {
+  color: var(--blue);
+}
+
+.logo-black {
+  color: var(--text-black);
+}
+
+.logo-white {
+  color: #fff;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header nav a {
+  color: var(--text-black);
+  font-weight: 500;
+}
+
+.header a:hover,
+.header a:focus,
+.header a:active {
+  color: var(--blue);
+}
+
+.header-contact a {
+  color: var(--text-grey);
+}
+
+.main-page-top {
+  background-color: var(--black);
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.main-page-top button {
+  background-color: var(--blue);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.87;
+}
+
+.main-page-mid-1 {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.main-page-mid-1 ul {
+  list-style-type: none;
+}
+
+.main-page-mid-1 li {
+  color: var(--text-grey);
+}
+
+.main-page-mid-1 h1 {
+  color: var(--text-black);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-page-mid-2 {
+  background-color: var(--grey);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.main-page-mid-2 figcaption {
+  color: var(--text-grey);
+}
+
+.main-page-mid-2 h3 {
+  color: var(--text-black);
+  font-weight: 500;
+}
+
+.main-page-mid-1 h2,
+.main-page-mid-2 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+}
+
+.footer,
+.footer address {
+  background-color: var(--black);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.contact-bottom {
+  color: #fff;
+  opacity: 40%;
+  text-decoration: none;
+}
+
+.button-list button {
+    background-color: var(--grey);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    border-style: none;
+    font-family: inherit;
+    cursor: pointer;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.button-list button:focus,
+.button-list button:hover {
+  background-color: var(--blue);
+  color: #fff;
+  cursor: pointer;
+}
+
+.portfolio h3 {
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio figcaption {
+  color: var(--text-grey);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
