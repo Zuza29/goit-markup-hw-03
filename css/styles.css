@@ -158,15 +158,15 @@ nav a:visited {
 /* Buttons */
 
 .button-list button {
-    background-color: var(--grey);
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 16px;
-    border-style: none;
-    font-family: inherit;
-    cursor: pointer;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+  background-color: var(--grey);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  border-style: none;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .button-list button:focus,
