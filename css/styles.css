@@ -73,6 +73,15 @@ nav a:visited {
   color: var(--text-grey);
 }
 
+.container-header {
+  display: flex;
+}
+
+.container-header-nav {
+  display: flex;
+  
+}
+
 /* Main */
 
 .main-page-top {
