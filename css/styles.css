@@ -11,6 +11,8 @@ body {
   font-family: "Roboto", "sans-serif";
 }
 
+/* Header */
+
 .header {
   background-color: #fff;
   font-weight: 500;
@@ -70,6 +72,8 @@ nav a:visited {
 .header-contact a {
   color: var(--text-grey);
 }
+
+/* Main */
 
 .main-page-top {
   background-color: var(--black);
@@ -134,6 +138,8 @@ nav a:visited {
   line-height: 1.6;
 }
 
+/* Footer */
+
 .footer,
 .footer address {
   background-color: var(--black);
@@ -148,6 +154,8 @@ nav a:visited {
   opacity: 40%;
   text-decoration: none;
 }
+
+/* Buttons */
 
 .button-list button {
     background-color: var(--grey);
@@ -167,6 +175,8 @@ nav a:visited {
   color: #fff;
   cursor: pointer;
 }
+
+/* Portfolio cards */
 
 .portfolio h3 {
   color: var(--text-black);
