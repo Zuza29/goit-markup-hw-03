@@ -12,34 +12,39 @@
     />
   </head>
   <body>
-    <header class="container-header header">
-      <a href="index.html">
+    <header class="header">
+      <div class="container">
+        <div class="logo-container">
+      <a href="index.html" class="link">
         <span class="logo logo-blue">Web</span
         ><span class="logo logo-black">Studio</span>
       </a>
+      </div>
       <nav>
-        <ul class="container-header-nav">
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="...">Kontakt</a></li>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html" class="link">Agencja</a></li>
+          <li class="menu-item"><a href="portfolio.html" class="link">Portfolio</a></li>
+          <li class="menu-item"><a href="..." class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="container-header-nav">
-        <li class="header-contact">
-          <a href="mailto:info@devstudio.com"
+      <ul class="menu menu-2">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
           >
         </li>
-        <li class="header-contact">
-          <a href="tel:+48111111111">+48 111 111 111</a>
+        <li>
+          <a href="tel:+48111111111" class="link menu-2-phone">+48 111 111 111</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <div class="main-page-top">
         <h1>Efektywne rozwiązania dla waszego biznesu</h1>
         <button type="button">Zamów usługę</button>
       </div>
+      <section class="section">
       <div class="main-page-mid-1">
         <ul>
           <li><h1>Lorem ipsum</h1></li>
@@ -64,6 +69,8 @@
           </li>
         </ul>
       </div>
+      </section>
+      <section class="section">
       <div>
         <h2>Czym się zajmujemy</h2>
         <img
@@ -85,6 +92,8 @@
           height="294"
         />
       </div>
+      </section>
+      <section class="section">
       <div class="main-page-mid-2">
         <h2>Nasz zespół</h2>
         <figure>
@@ -136,17 +145,20 @@
           </figcaption>
         </figure>
       </div>
+      </section>
     </main>
     <footer class="footer">
       <address>
+      <div class="logo-container-footer">
         <span class="logo logo-blue">Web</span
-        ><span class="logo logo-white">Studio</span><br />
+        ><span class="logo logo-white">Studio</span>
+</div>
         <span class="address-street">m. Warszawa, Aleje Jerozolimskie 21</span
         ><br />
-        <a href="mailto:info@devstudio.com" class="contact-bottom"
+        <a href="mailto:info@devstudio.com" class="contact-bottom link"
           >info@example.com</a
         ><br />
-        <a href="tel:+48111111111" class="contact-bottom">+48 111 111 111</a>
+        <a href="tel:+48111111111" class="contact-bottom link">+48 111 111 111</a>
       </address>
     </footer>
   </body>

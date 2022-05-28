@@ -11,7 +11,49 @@ body {
   font-family: "Roboto", "sans-serif";
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Header */
+
+.header .container {
+  display: flex;
+}
 
 .header {
   background-color: #fff;
@@ -21,11 +63,16 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header a {
-  text-decoration: none;
+.menu {
+  display: flex;
+  align-items: center;  
 }
 
-nav a:visited {
+.menu-item:not(last-child) {
+  margin-right: 46px;
+}
+
+.menu a:visited {
   color: var(--text-black);
 }
 
@@ -42,6 +89,13 @@ nav a:visited {
   letter-spacing: 0.03em;
 }
 
+.logo-container {
+  padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;  
+  padding-left: 215px;
+}
+
 .logo-blue {
   color: var(--blue);
 }
@@ -52,10 +106,6 @@ nav a:visited {
 
 .logo-white {
   color: #fff;
-}
-
-.header ul {
-  list-style-type: none;
 }
 
 .header nav a {
@@ -69,16 +119,13 @@ nav a:visited {
   color: var(--blue);
 }
 
-.header-contact a {
+.menu-2 a {
   color: var(--text-grey);
 }
 
-.container-header {
-  display: flex;
-}
-
-.container-header-nav {
-  display: flex;
+.menu-2-phone {
+  padding-right: 227px;
+  padding-left: 50px;
 }
 
 /* Main */
@@ -92,6 +139,8 @@ nav a:visited {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-page-top button {
@@ -102,15 +151,13 @@ nav a:visited {
   font-size: 16px;
   cursor: pointer;
   line-height: 1.87;
+  border: none;
+  padding: 10px 41px;
 }
 
 .main-page-mid-1 {
   font-size: 14px;
   line-height: 1.14;
-}
-
-.main-page-mid-1 ul {
-  list-style-type: none;
 }
 
 .main-page-mid-1 li {
@@ -155,12 +202,16 @@ nav a:visited {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
+    padding-left: 215px; 
 }
 
 .contact-bottom {
   color: #fff;
   opacity: 40%;
-  text-decoration: none;
+}
+
+.logo-container-footer {
+  padding-top: 60px;
 }
 
 /* Buttons */
