@@ -66,16 +66,17 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
+  min-height: 80px;
+  display: flex;
+      align-items: center;
+    min-width: 1200px;
 }
 
 .menu {
   display: flex;
-  align-items: center;  
 }
 
-.menu-item:not(last-child) {
-  margin-right: 46px;
-}
 
 .menu a:visited {
   color: var(--text-black);
@@ -124,13 +125,16 @@ img {
   color: var(--blue);
 }
 
-.menu-2 a {
-  color: var(--text-grey);
+.menu-2 {
+   margin-left: auto;
+    margin-right:12px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.menu-2-phone {
-  padding-right: 227px;
-  padding-left: 50px;
+.menu-2 a {
+  color: var(--text-grey);
+  margin-left: 50px;
 }
 
 /* Main */
