@@ -178,6 +178,7 @@ img {
 .main-page-mid-1-list {
   display: flex;
   padding-bottom: 0;
+  margin: 0;
 }
 
 .main-page-mid-1-list li:not(:last-of-type) {
@@ -245,6 +246,10 @@ img {
 
 /* Footer */
 
+.footer {
+  padding-left: 215px;
+}
+
 .footer,
 .footer address {
   background-color: var(--black);
@@ -252,7 +257,6 @@ img {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
-  padding-left: 150px;
 }
 
 .contact-bottom {
