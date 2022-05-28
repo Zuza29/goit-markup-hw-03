@@ -127,7 +127,7 @@ img {
 
 .menu-2 {
    margin-left: auto;
-    margin-right:12px;
+    margin-right: 12px;
     display: flex;
     justify-content: flex-start;
 }
@@ -135,6 +135,10 @@ img {
 .menu-2 a {
   color: var(--text-grey);
   margin-left: 50px;
+}
+
+.menu-item {
+  margin-right: 46px;
 }
 
 /* Main */
