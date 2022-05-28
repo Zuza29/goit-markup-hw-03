@@ -13,35 +13,39 @@
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <a href="index.html" class="link">
-        <span class="logo logo-header logo-blue">Web</span
+        <span class="logo-container logo logo-blue">Web</span
         ><span class="logo logo-black">Studio</span>
       </a>
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html" class="link">Agencja</a></li>
-          <li><a href="portfolio.html" class="link">Portfolio</a></li>
-          <li>Kontakt</li>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html" class="link">Agencja</a></li>
+          <li class="menu-item"><a href="portfolio.html" class="link">Portfolio</a></li>
+          <li class="menu-item"><a href="..." class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="header-contact">
+      <ul class="menu-2">
         <li>
-        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
           <a href="tel:+48111111111" class="link">+48 111 111 111</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
-      <section class="button-list">
+      <section class="section button-list">
         <button type="button">Wszystkie</button>
         <button type="button">Strony</button>
         <button type="button">Aplikacje</button>
         <button type="button">Dizajn</button>
         <button type="button">Marketing</button>
       </section>
-      <section class="portfolio">
+      <section class="section portfolio">
         <ul>
           <li>
             <figure>
@@ -174,8 +178,10 @@
     </main>
     <footer class="footer">
       <address>
-        <span class="logo logo-footer logo-blue">Web</span
-        ><span class="logo logo-white">Studio</span><br />
+      <div class="container-footer">
+        <span class="logo logo-blue">Web</span
+        ><span class="logo logo-white">Studio</span>
+<br>
         <span class="address-street">m. Warszawa, Aleje Jerozolimskie 21</span
         ><br />
         <a href="mailto:info@devstudio.com" class="contact-bottom link"
@@ -183,6 +189,7 @@
         ><br />
         <a href="tel:+48111111111" class="contact-bottom link">+48 111 111 111</a>
       </address>
+    </div>
     </footer>
   </body>
 </html>
