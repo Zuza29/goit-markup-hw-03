@@ -2,10 +2,11 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link href="css/styles.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -16,7 +17,7 @@
     <header class="header">
       <div class="container">
       <a href="index.html" class="link">
-        <span class="logo-container logo logo-blue">Web</span
+        <span class="logo logo-blue">Web</span
         ><span class="logo logo-black">Studio</span>
       </a>
       <nav>
@@ -40,11 +41,15 @@
     </header>
     <main>
       <section class="section button-list">
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Dizajn</button>
-        <button type="button">Marketing</button>
+        <div class="container">
+          <ul class="button-list">
+        <li><button type="button">Wszystkie</button></li>
+        <li><button type="button">Strony</button></li>
+        <li><button type="button">Aplikacje</button></li>
+        <li><button type="button">Dizajn</button></li>
+        <li><button type="button">Marketing</button></li>
+        </ul>
+        </div>
       </section>
       <section class="section portfolio">
         <ul>
