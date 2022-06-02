@@ -16,26 +16,18 @@ ol {
   list-style-type: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 h2 {
   text-align: center;
   padding-bottom: 50px;
 }
 
-p {
-  padding: 0;
-}
-
 img {
   display: block;
+}
+
+* {  
+  margin: 0px;  
+  padding: 0px;
 }
 
 .container {
@@ -133,6 +125,11 @@ img {
   margin-right: 46px;
 }
 
+.menu a[href="index.html"]
+{
+  margin-left: 93px;
+}
+
 /* Main */
  
 .section-1 {
@@ -170,7 +167,6 @@ padding-top: 0;
 .main-page-mid-1-images {
   font-size: 14px;
   line-height: 1.14;
-  padding: 0;
 }
 
 .main-page-mid-1-images {
@@ -189,7 +185,7 @@ padding-top: 0;
 .main-page-mid-1-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 0;  
+  padding: 0;  
 }
 
 .main-page-mid-1-list li {
@@ -215,6 +211,7 @@ padding-top: 0;
   display: flex;
   justify-content: space-around;
   padding-left: 0;
+  margin-left: -30px;
 }
 
 .main-page-mid-2 h2 {
@@ -227,6 +224,7 @@ padding-top: 0;
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   text-align: center;  
+  margin-left: 30px;
 }
 
 .main-page-mid-2 figcaption {
@@ -332,13 +330,14 @@ padding-top: 0;
 
 .portfolio figure {
   background: #fff;
-border: 1px solid #eee;
+  border: 1px solid #eee;
+    margin-bottom: 30px;
 }
 
 .portfolio ul {
   display: flex; 
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .portfolio h3 {
